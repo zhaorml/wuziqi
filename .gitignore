@@ -1,0 +1,26 @@
+# ---- 编译产物 ----
+classes/
+out/
+bin/
+target/
+*.class
+*.jar
+*.war
+
+# ---- 运行时生成 ----
+# 对局记录（程序运行时自动创建；samples/ 下的示例文件仍会提交）
+records/
+
+# ---- IDE ----
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+nbproject/
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
